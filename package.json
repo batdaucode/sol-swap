@@ -1,0 +1,27 @@
+{
+  "name": "code-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@orca-so/whirlpools-sdk": "^0.11.8",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.3.9",
+    "@solana/web3.js": "^1.87.6",
+    "decimal.js": "^10.4.3",
+    "delay": "^6.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
